@@ -1,3 +1,5 @@
+### NOTICE: xdebugbox is now being maintained at [https://gitlab.com/bridgesense/xdebugbox](https://gitlab.com/bridgesense/xdebugbox)
+
 ![screenshot](https://bridgesense.com/static/images/dotfiles/xdebugbox.jpeg)
 
 
