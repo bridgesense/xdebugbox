@@ -1,4 +1,4 @@
-### NOTICE: xdebugbox is now being maintained at [https://gitlab.com/bridgesense/lampready](https://gitlab.com/bridgesense/xdebugbox)
+### NOTICE: xdebugbox is now being maintained at [https://gitlab.com/bridgesense/lampready](https://gitlab.com/bridgesense/lampready)
 
 ![screenshot](https://bridgesense.com/static/images/dotfiles/xdebugbox.jpeg)
 
