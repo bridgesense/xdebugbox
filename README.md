@@ -234,14 +234,23 @@ let g:vdebug_options = {
 \    "break_on_open" : 0,
 \    "ide_key" : 'xdebug',
 \    "debug_window_level" : 0,
-\    "debug_file_level" : 1,
+\    "debug_file_level" : 0,
 \    "debug_file" : "~/.vdebug.log",
 \    "path_maps" : {"/var/www" : "/Users/Paul/www/your_projects_root_dir"},
 \    "watch_window_style" : 'expanded',
 \    "marker_default" : '⬦',
 \    "marker_closed_tree" : '▸',
 \    "marker_open_tree" : '▾',
-\    "continuous_mode"  : 0
+\    'sign_breakpoint' : '▷',
+\    'sign_current' : '▶',
+\    "continuous_mode"  : 1,
+\    'simplified_status': 1,
+\    'layout': 'vertical',
+\}
+let g:vdebug_features = { 
+\ 'max_data': 512,
+\ 'max_children': 128, 
+\ 'max_depth': 3, 
 \}
 ```
 
@@ -314,7 +323,7 @@ All Geben needs is the correct path mapping to the project's root directory (not
 
 M-x customize-variable geben-path-mappings 
 
-![screenshot](https://bridgesense.com/static/images/dotfiles/geben1.png)
+![screenshot](https://bridgesense.com/images/dotfiles/geben1.png)
 
 You can also modify your .emacs file directly.
 ```
