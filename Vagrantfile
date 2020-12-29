@@ -4,6 +4,9 @@
 Vagrant.configure("2") do |config|
 
     config.vm.box = "bridgesense/xdebugbox"
+    config.vm.provider "virtualbox" do |v|
+      v.check_guest_additions = false
+    end
 
     config.vm.hostname = "mywebsite.com"
     config.vm.network "private_network", ip: "192.168.33.10"
